@@ -1,0 +1,13 @@
+.jumbotron {
+    text-align: center;
+}
+.heroes {
+    display: none;
+}
+.hero-img {
+    width: 500px;
+    height: auto;
+    padding: 3px;
+    border: 5px black;
+    margin: 5px;
+}

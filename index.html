@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Marvel Hero Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>What Marvel Character are you?</h1>
+                <p>Are you an Avenger, X-man, or Guardian of the Galaxy?</p>
+            </div>
+            
+            <form>
+                <h3>Question 1: What is your strength</h3>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question1" value="1">
+                        My bare hands! Who needs more?
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question1" value="2">
+                        My brain! I'll outsmart my opponets!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question1" value="3">
+                        My Abilities! My greatest strength!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question1" value="4">
+                        My Courage! I'll bring my team together! 
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question1" value="5">
+                        I'm a jack of all trades! I'm pretty decent at everything!
+                    </label>
+                </div>
+                
+                <h3>Question 2: Where do you spend your free time?</h3>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question2" value="1">
+                        Outside! I like nature
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question2" value="2">
+                        In my garage, I like tinkering
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question2" value="3">
+                        On my couch either reading or watching TV!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question2" value="4">
+                        Free time? I'm always on the go!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question2" value="5">
+                        The City is a great place to be!
+                    </label>
+                </div>
+                
+                <h3>Question 3: Do you like singing along in movies?</h3>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question3" value="1">
+                        Yes!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question3" value="2">
+                        Kind of?
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question3" value="3">
+                        Not Really
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question3" value="4">
+                        Definitely Not
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question3" value="5">
+                        Definitely Not
+                    </label>
+                </div>
+
+                <h3>Question 4: Pick a word</h3>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question4" value="1">
+                        Snap
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question4" value="2">
+                        World
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question4" value="3">
+                        Light
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question4" value="4">
+                        Brave
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question4" value="5">
+                        Alive
+                    </label>
+                </div>
+
+                <h3>Question 5: Pick a color</h3>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question5" value="1">
+                        Black!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question5" value="2">
+                        How 'bout some hot rod red?
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question5" value="3">
+                        Scarlet
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question5" value="4">
+                        Red, white and blue! 'merica!
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="question5" value="5">
+                        Blue and Red
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg" id="form-submit">What Hero?</button>
+            </form>
+            <div class="heroes">
+                <div class="black-panther">
+                    <h3>Black Panther!</h3>
+                    <img class="hero-img" src="media/black-panther.jpg">
+                </div>
+                
+                <div class="Iron-Man">
+                    <h3>Iron Man!</h3>
+                    <img src="media/iron-man.jpg">
+                </div>
+                
+                <div class="Scarlet-Witch">
+                    <h3>Scarlet Witch!</h3>
+                    <img src="media/scarlet-witch.jpg">
+                </div>
+                
+                <div class="Captain-America">
+                    <h3>Captain America!</h3>
+                    <img src="media/captain-america.jpg">
+                </div>
+            
+                <div class="Spider-Man">
+                    <h3>Spider-Man!</h3>
+                    <img src="media/spider-man.jpg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
