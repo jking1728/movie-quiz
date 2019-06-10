@@ -1,8 +1,13 @@
 .jumbotron {
     text-align: center;
 }
-.black-panther, .Iron-Man, .Scarlet-Witch, .Captain-America, .Spider-Man, #reset {
+.heroes, #reset {
     display: none;
+}
+
+
+/* .black-panther, .Iron-Man, .Scarlet-Witch, .Captain-America, .Spider-Man, #reset {
+    display: none; */
 }
 img {
     width: 500px;
